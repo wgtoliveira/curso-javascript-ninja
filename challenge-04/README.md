@@ -126,7 +126,7 @@ carro.adicionarPessoas = function (numPessoas) {
     return 'Só suporta mais '+quantasPessoasCabem+ pluralOuSingular +'!'
   }
   carro.quantidadePessoas += numPessoas
-  return 'Já temos '+ totalPessoas + ' pessoas no carro'
+  return 'Já temos '+ carro.quantidadePessoas + ' pessoas no carro'
 
 }
 

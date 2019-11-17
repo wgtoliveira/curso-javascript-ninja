@@ -96,11 +96,9 @@ a frase:
 */
 console.log('O autor do livro, Javascript: O Guia é, ' + book('Javascript: O Guia').autor)
 
-
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
 console.log('O livro Javascript: O Guia , foi publicado pela editora, ' + book('Javascript: O Guia').editora)
-

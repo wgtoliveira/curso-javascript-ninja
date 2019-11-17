@@ -19,5 +19,11 @@
   "homepage": "https://github.com/wgtoliveira/curso-javascript-ninja#readme",
   "devDependencies": {
     "prettier": "1.19.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false
   }
 }

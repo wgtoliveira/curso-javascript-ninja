@@ -56,7 +56,7 @@ propriedades:
 os livros.
 */
 function book(nameBook) {
-  const allBooks = {
+  let allBooks = {
     'Javascript: O Guia': {
       qtdePaginas: 1450,
       autor: 'José da Silva',
@@ -77,6 +77,7 @@ function book(nameBook) {
   return !nameBook ? allBooks : allBooks[nameBook]
 }
 
+let bookName = 'Javascript: O Guia'
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
@@ -87,18 +88,17 @@ Ainda com a função acima, imprima a quantidade de páginas de um livro qualque
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-console.log('O livro, Javascript: o Guia, tem ' + book('Javascript: O Guia').qtdePaginas + ' páginas')
+console.log('O livro, ' + bookName + ', tem ' + book(bookName).qtdePaginas + ' páginas')
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-console.log('O autor do livro, Javascript: O Guia é, ' + book('Javascript: O Guia').autor)
-
-/*
+console.log('O autor do livro, ' + bookName + ' é, ' + book(bookName).autor) /
+  /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
-console.log('O livro Javascript: O Guia , foi publicado pela editora, ' + book('Javascript: O Guia').editora)
+  console.log('O livro ' + bookName + ', foi publicado pela editora, ' + book(bookName).editora)

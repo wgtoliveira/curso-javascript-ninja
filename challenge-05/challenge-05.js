@@ -2,7 +2,7 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-var myarray = [1, "Bahia", "1", true, false];
+var myarray = [1, "Bahia", "1", true, false]
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.

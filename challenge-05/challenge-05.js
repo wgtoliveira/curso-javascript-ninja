@@ -88,18 +88,18 @@ console.log(book())
  */
 let nameBook = 'Javascript: O Guia'
 
-console.log('O livro, Javascript: o Guia, tem ' + book('Javascript: O Guia').qtdePaginas + ' páginas')
+console.log('O livro,' + nameBook + ', tem ' + book(nameBook).qtdePaginas + ' páginas')
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-console.log('O autor do livro, Javascript: O Guia é, ' + book('Javascript: O Guia').autor)
+console.log('O autor do livro, ' + nameBook + ' é ' + book(nameBook).autor)
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
-console.log('O livro Javascript: O Guia , foi publicado pela editora, ' + book('Javascript: O Guia').editora)
+console.log('O livro ' + nameBook + ', foi publicado pela editora, ' + book(nameBook).editora)

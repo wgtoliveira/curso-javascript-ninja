@@ -86,6 +86,8 @@ console.log(book())
  *usando a frase:
  *"O livro [NOME_DO_LIVRO] tem [X] páginas!"
  */
+let nameBook = 'Javascript: O Guia'
+
 console.log('O livro, Javascript: o Guia, tem ' + book('Javascript: O Guia').qtdePaginas + ' páginas')
 
 /*

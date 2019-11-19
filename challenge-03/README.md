@@ -17,13 +17,13 @@ var  objeto = {};
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 */
 var pessoa = {
-nome:'Washington', 
-sobrenome: 'Oliveira', 
+nome:'Washington',
+sobrenome: 'Oliveira',
 sexo: 'Masculino',
 idade: 55,
-altura: 1.82, 
-peso: 110, 
-andando:false, 
+altura: 1.82,
+peso: 110,
+andando:false,
 caminhouQuantosMetros: 0
 };
 
@@ -47,7 +47,7 @@ valor dessa propriedade a quantidade passada por parâmetro;
 booleano que representa "verdadeiro";
 */
 pessoa.andar = function(metros) {
-  pessoa.caminhouQuantosMetros += metros; 
+  pessoa.caminhouQuantosMetros += metros;
   pessoa.andando = true;
 };
 
@@ -203,6 +203,6 @@ pessoa.apresentacao = function() {
 };
 
 // Agora, apresente-se ;)
-pessoa.apresentacao(); 
+pessoa.apresentacao();
 // * Olá, eu sou o Washington Oliveira, tenho 59 anos, 1.82 Mts, meu peso é 110 KGs e, só hoje, eu já caminhei 600 metros!
 ```

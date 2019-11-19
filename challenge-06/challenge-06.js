@@ -4,7 +4,7 @@
  *Declare uma variável chamada `championship` que receberá o nome do campeonato,
  *e imprima o nome desse campeonato no console.
  */
-var championship = 'Campeonato Brasileiro'
+const championship = 'Campeonato Brasileiro'
 console.log(championship)
 
 /*

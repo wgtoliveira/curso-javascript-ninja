@@ -6,5 +6,7 @@ module.exports = {
   singleQuote: true,
   printWidth: 120,
   useTabs: false,
-  bracketSpacing: true,
+  bracketSpacing: false,
+  jsxBracketSameLine: false,
+  proseWrap: 'always',
 }

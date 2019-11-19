@@ -13,10 +13,7 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 // ?
-<<<<<<< HEAD
-=======
 
->>>>>>> 3159e512fe1fddfc5634759a692dfaae77a18913
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
     - A função deve receber um número por parâmetro;

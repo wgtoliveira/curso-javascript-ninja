@@ -13,9 +13,6 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 // ?
-
-console.log('Times que estão participando do campeonato:', teams)
-
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
     - A função deve receber um número por parâmetro;

@@ -5,18 +5,18 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 ```js
 // *Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
 function somar(x, y) {
-  return x + y
+  return x + y;
 }
 
 // *Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var soma = somar(10, 10) + 5
-soma
+var soma = somar(10, 10) + 5;
+soma;
 
 // *Qual o valor atualizado dessa variável?
-25
+25;
 
 // * Declare uma nova variável, sem valor.
-var myvar
+var myvar;
 
 /*
  *Crie uma função que adicione um valor à variável criada acima, e retorne a string:
@@ -24,12 +24,12 @@ var myvar
  *Onde VALOR é o novo valor da variável.
  */
 function myvar() {
-  myvar = 100
-  return 'O valor da variável agora é ' + myvar
+  myvar = 100;
+  return "O valor da variável agora é " + myvar;
 }
 
 // *Invoque a função criada acima.
-myvar()
+myvar();
 
 // *Qual o retorno da função? Use comentários de bloco.
 /*
@@ -45,20 +45,20 @@ Crie uma função com as seguintes características:
 */
 function passarArgumentos(a, b, c) {
   if (a === undefined || b === undefined || c === undefined) {
-    return 'Preencha todos os valores corretamente!'
+    return "Preencha todos os valores corretamente!";
   } else {
-    return a * b * c + 2
+    return a * b * c + 2;
   }
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-passarArgumentos(2, 3)
+passarArgumentos(2, 3);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // * Preencha todos os valores corretamente!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-passarArgumentos(2, 3, 4)
+passarArgumentos(2, 3, 4);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // 26
@@ -74,22 +74,22 @@ Crie uma função com as seguintes características:
 */
 function argumentos(x, y, z) {
   if (x !== undefined && y === undefined && z === undefined) {
-    return x
+    return x;
   } else if (x !== undefined && y !== undefined && z === undefined) {
-    return x + y
+    return x + y;
   } else if (x !== undefined && y !== undefined && z !== undefined) {
-    return (x + y) / z
+    return (x + y) / z;
   } else if (x === undefined || y === undefined || z === undefined) {
-    return false
+    return false;
   } else {
-    return null
+    return null;
   }
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-console.log(argumentos(10)) // 10
-console.log(argumentos(10, 20)) // 30
-console.log(argumentos(10, 20, 2)) // 15
-console.log(argumentos()) // false
-console.log(argumentos(null)) // null
+console.log(argumentos(10)); // 10
+console.log(argumentos(10, 20)); // 30
+console.log(argumentos(10, 20, 2)); // 15
+console.log(argumentos()); // false
+console.log(argumentos(null)); // null
 ```
